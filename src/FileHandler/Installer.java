@@ -9,7 +9,7 @@ FileHandler fileHandler;
 
         initResources();
     }
-    private final String username = "david";
+    private final String username = System.getProperty("user.name");
     private final String dirPath = "C:\\Users\\"+username+"\\Downloads\\Parrot-Backup-Client-Installer";
 
     private final String dest = "C:\\Users\\"+username+"\\Documents\\Parrot-Backup-Client";
