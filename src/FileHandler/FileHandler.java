@@ -10,7 +10,7 @@ import java.util.List;
 
 public class FileHandler {
 
-    private final String username = "david";
+    private final String username = System.getProperty("user.name");
     public final String dirPath = "C:\\Users\\"+username+"\\Documents\\Parrot-Backup-Client";
 
     private final File dir = new File(dirPath);
