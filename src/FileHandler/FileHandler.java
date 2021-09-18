@@ -23,16 +23,7 @@ public class FileHandler {
     private final File installed = new File(dir+"\\installed.txt");
 
     private final File systemTray = new File(dirPath+"\\images\\systemTray.png");
-    private final File backgroundIcon = new File(dirPath+"\\images\\background.png");
-    private final File cross = new File(dirPath+"\\images\\Cross.png");
-    private final File addDirectoryIcon = new File(dirPath+"\\images\\AddDirectory.png");
-    private final File changeBackupdirIcon = new File(dirPath+"\\images\\changeBackupFolder.png");
-    private final File backupIcon = new File(dirPath+"\\images\\backupNow.png");
-    private final File AutoBackupdisabled = new File(dirPath+"\\images\\autobackupdisabled.png");
-    private final File AutoBackupenabled = new File(dirPath+"\\images\\autobackupenabled.png");
-    private final File exitIcon = new File(dirPath+"\\images\\exit.png");
-    private final File arrowUp = new File(dirPath+"\\images\\Arrowup.png");
-    private final File arrowDown = new File(dirPath+"\\images\\Arrowdown.png");
+ 
     public FileHandler(){
 
         initDir();
